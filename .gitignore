@@ -10,3 +10,4 @@ config/local.yaml
 lib/
 tsconfig.tsbuildinfo
 *.out
+bin/
