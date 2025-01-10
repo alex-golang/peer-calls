@@ -6,11 +6,11 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/alex-golang/peercalls/v4/server"
-	"github.com/alex-golang/peercalls/v4/server/cli"
-	"github.com/alex-golang/peercalls/v4/server/logformatter"
-	"github.com/alex-golang/peercalls/v4/server/logger"
-	"github.com/alex-golang/peercalls/v4/server/multierr"
+	"github.com/alex-golang/peercalls/v5/server"
+	"github.com/alex-golang/peercalls/v5/server/cli"
+	"github.com/alex-golang/peercalls/v5/server/logformatter"
+	"github.com/alex-golang/peercalls/v5/server/logger"
+	"github.com/alex-golang/peercalls/v5/server/multierr"
 	"github.com/juju/errors"
 	"github.com/spf13/pflag"
 )

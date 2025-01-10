@@ -20,6 +20,11 @@ The config file format is still YAML, but is different than what was in v3. The
 v3 source code is available in `version-3` branch.  Version 4 will no longer be
 published on NPM since the server is no longer written in NodeJS.
 
+# What's New in v5
+
+- [x] Update path to ```github.com/alex-golang/peer-calls```
+- [x] Add in peerchat from ```https://github.com/manishmeganathan/peerchat```
+
 # What's New in v4
 
 - [x] Core rewritten in Golang.

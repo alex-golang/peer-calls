@@ -1,4 +1,4 @@
-module github.com/alex-golang/peercalls/v4
+module github.com/alex-golang/peercalls/v5
 
 go 1.21
 
