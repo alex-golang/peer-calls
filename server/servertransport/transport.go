@@ -6,12 +6,12 @@ import (
 	"sync"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server/codecs"
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
-	"github.com/alex-golang/peer-calls/v4/server/logger"
-	"github.com/alex-golang/peer-calls/v4/server/multierr"
-	"github.com/alex-golang/peer-calls/v4/server/transport"
-	"github.com/alex-golang/peer-calls/v4/server/uuid"
+	"github.com/alex-golang/peer-calls/v5/server/codecs"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server/logger"
+	"github.com/alex-golang/peer-calls/v5/server/multierr"
+	"github.com/alex-golang/peer-calls/v5/server/transport"
+	"github.com/alex-golang/peer-calls/v5/server/uuid"
 	"github.com/pion/interceptor"
 )
 

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
-	"github.com/alex-golang/peer-calls/v4/server/message"
-	"github.com/alex-golang/peer-calls/v4/server/transport"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server/message"
+	"github.com/alex-golang/peer-calls/v5/server/transport"
 	"github.com/pion/webrtc/v3"
 	"github.com/stretchr/testify/assert"
 )

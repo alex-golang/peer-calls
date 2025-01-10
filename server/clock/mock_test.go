@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alex-golang/peer-calls/v4/server/clock"
+	"github.com/alex-golang/peer-calls/v5/server/clock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

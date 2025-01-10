@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server"
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
-	"github.com/alex-golang/peer-calls/v4/server/message"
+	"github.com/alex-golang/peer-calls/v5/server"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server/message"
 	"github.com/stretchr/testify/require"
 	"nhooyr.io/websocket"
 )

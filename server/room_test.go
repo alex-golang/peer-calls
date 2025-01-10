@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/alex-golang/peer-calls/v4/server"
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"

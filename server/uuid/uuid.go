@@ -2,7 +2,7 @@ package uuid
 
 import (
 	"github.com/google/uuid"
-	"github.com/alex-golang/peer-calls/v4/server/basen"
+	"github.com/alex-golang/peer-calls/v5/server/basen"
 )
 
 var defaultBaseNEncoder = basen.NewBaseNEncoder(basen.AlphabetBase62)

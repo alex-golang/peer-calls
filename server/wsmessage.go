@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server/message"
+	"github.com/alex-golang/peer-calls/v5/server/message"
 )
 
 type Serializer interface {

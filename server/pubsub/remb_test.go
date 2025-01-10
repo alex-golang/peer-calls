@@ -3,8 +3,8 @@ package pubsub_test
 import (
 	"testing"
 
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
-	"github.com/alex-golang/peer-calls/v4/server/pubsub"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server/pubsub"
 	"github.com/stretchr/testify/assert"
 )
 

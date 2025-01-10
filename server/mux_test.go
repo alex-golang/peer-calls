@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/alex-golang/peer-calls/v4/server"
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
-	"github.com/alex-golang/peer-calls/v4/server/pubsub"
-	"github.com/alex-golang/peer-calls/v4/server/sfu"
-	"github.com/alex-golang/peer-calls/v4/server/test"
-	"github.com/alex-golang/peer-calls/v4/server/transport"
+	"github.com/alex-golang/peer-calls/v5/server"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server/pubsub"
+	"github.com/alex-golang/peer-calls/v5/server/sfu"
+	"github.com/alex-golang/peer-calls/v5/server/test"
+	"github.com/alex-golang/peer-calls/v5/server/transport"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

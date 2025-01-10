@@ -1,6 +1,6 @@
 package pubsub
 
-import "github.com/alex-golang/peer-calls/v4/server/identifiers"
+import "github.com/alex-golang/peer-calls/v5/server/identifiers"
 
 // BitrateEstimator estimates minimum, maximum and average bitrate. It is not
 // safe for concurrent use.

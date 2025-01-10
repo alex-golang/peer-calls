@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server"
-	"github.com/alex-golang/peer-calls/v4/server/logger"
+	"github.com/alex-golang/peer-calls/v5/server"
+	"github.com/alex-golang/peer-calls/v5/server/logger"
 )
 
 type Props struct {

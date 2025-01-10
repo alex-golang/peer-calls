@@ -3,7 +3,7 @@ package stats
 // import (
 // 	"time"
 
-// 	"github.com/alex-golang/peer-calls/v4/server/clock"
+// 	"github.com/alex-golang/peer-calls/v5/server/clock"
 // )
 
 // type Timer struct {

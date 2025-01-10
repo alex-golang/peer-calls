@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server"
-	"github.com/alex-golang/peer-calls/v4/server/test"
+	"github.com/alex-golang/peer-calls/v5/server"
+	"github.com/alex-golang/peer-calls/v5/server/test"
 	"github.com/stretchr/testify/assert"
 )
 

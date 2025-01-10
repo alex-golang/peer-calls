@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
 )
 
 // controlStateTracker ensures that local and remote transports are both

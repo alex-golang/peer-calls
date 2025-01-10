@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/alex-golang/peer-calls/v4/server/command"
+	"github.com/alex-golang/peer-calls/v5/server/command"
 )
 
 func NewRootCommand(props Props) *command.Command {

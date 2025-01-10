@@ -9,12 +9,12 @@ import (
 	"strings"
 
 	"github.com/go-chi/chi"
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
-	"github.com/alex-golang/peer-calls/v4/server/logger"
-	"github.com/alex-golang/peer-calls/v4/server/pubsub"
-	"github.com/alex-golang/peer-calls/v4/server/sfu"
-	"github.com/alex-golang/peer-calls/v4/server/transport"
-	"github.com/alex-golang/peer-calls/v4/server/uuid"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server/logger"
+	"github.com/alex-golang/peer-calls/v5/server/pubsub"
+	"github.com/alex-golang/peer-calls/v5/server/sfu"
+	"github.com/alex-golang/peer-calls/v5/server/transport"
+	"github.com/alex-golang/peer-calls/v5/server/uuid"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

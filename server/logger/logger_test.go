@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/alex-golang/peer-calls/v4/server/logger"
+	"github.com/alex-golang/peer-calls/v5/server/logger"
 	"github.com/stretchr/testify/assert"
 )
 

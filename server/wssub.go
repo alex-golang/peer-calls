@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
-	"github.com/alex-golang/peer-calls/v4/server/logger"
-	"github.com/alex-golang/peer-calls/v4/server/message"
-	"github.com/alex-golang/peer-calls/v4/server/multierr"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server/logger"
+	"github.com/alex-golang/peer-calls/v5/server/message"
+	"github.com/alex-golang/peer-calls/v5/server/multierr"
 	"nhooyr.io/websocket"
 )
 

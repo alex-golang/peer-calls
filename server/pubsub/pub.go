@@ -2,8 +2,8 @@ package pubsub
 
 // import (
 // 	"github.com/juju/errors"
-// 	"github.com/alex-golang/peer-calls/v4/server/multierr"
-// 	"github.com/alex-golang/peer-calls/v4/server/transport"
+// 	"github.com/alex-golang/peer-calls/v5/server/multierr"
+// 	"github.com/alex-golang/peer-calls/v5/server/transport"
 // )
 
 // type transportsMap map[string]Transport

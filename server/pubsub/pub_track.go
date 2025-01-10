@@ -1,8 +1,8 @@
 package pubsub
 
 import (
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
-	"github.com/alex-golang/peer-calls/v4/server/transport"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server/transport"
 )
 
 // PubTrack will be emitted as an event after a track is published or

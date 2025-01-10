@@ -3,7 +3,7 @@ package server_test
 import (
 	"testing"
 
-	"github.com/alex-golang/peer-calls/v4/server"
+	"github.com/alex-golang/peer-calls/v5/server"
 	"github.com/stretchr/testify/assert"
 )
 

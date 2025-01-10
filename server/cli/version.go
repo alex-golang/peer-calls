@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/alex-golang/peer-calls/v4/server/command"
+	"github.com/alex-golang/peer-calls/v5/server/command"
 )
 
 type versionHandler struct {

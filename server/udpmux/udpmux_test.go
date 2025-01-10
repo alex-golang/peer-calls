@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server/test"
+	"github.com/alex-golang/peer-calls/v5/server/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

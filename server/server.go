@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server/multierr"
+	"github.com/alex-golang/peer-calls/v5/server/multierr"
 )
 
 type Params struct {

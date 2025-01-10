@@ -6,7 +6,7 @@ import (
 	"net"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server/logger"
+	"github.com/alex-golang/peer-calls/v5/server/logger"
 )
 
 const DefaultMTU uint32 = 8192

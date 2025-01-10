@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alex-golang/peer-calls/v4/server"
+	"github.com/alex-golang/peer-calls/v5/server"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 )

@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/juju/errors"
-	"github.com/alex-golang/peer-calls/v4/server/identifiers"
+	"github.com/alex-golang/peer-calls/v5/server/identifiers"
 )
 
 type NewAdapterFunc func(room identifiers.RoomID) Adapter

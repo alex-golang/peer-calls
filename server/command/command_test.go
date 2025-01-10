@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/alex-golang/peer-calls/v4/server/command"
+	"github.com/alex-golang/peer-calls/v5/server/command"
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/assert"
 )
