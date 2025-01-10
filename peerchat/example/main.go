@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	peerchat "github.com/peer-calls/peer-calls/peerchat"
+	peerchat "github.com/alex-golang/peercalls/peerchat"
 	"github.com/sirupsen/logrus"
 )
 

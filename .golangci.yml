@@ -28,14 +28,14 @@ linters-settings:
     # the regex is used to ignore names within pkg. (default "fmt:.*").
     # see https://github.com/kisielk/errcheck#the-deprecated-method for details
     ignore: fmt:.*,io/ioutil:^Read.*
-    # ignore: fmt:Println,fmt:Print,github.com/peer-calls/peer-calls/server/logger:A
+    # ignore: fmt:Println,fmt:Print,github.com/alex-golang/peer-calls/server/logger:A
 
     # path to a file containing a list of functions to exclude from checking
     # see https://github.com/kisielk/errcheck#excluding-functions for details
     exclude: .golangci-errcheck-exclude.txt
   # exhaustivestruct:
   #   struct-patterns:
-  #     - 'github.com/peer-calls/peer-calls/server/message.Payload'
+  #     - 'github.com/alex-golang/peer-calls/server/message.Payload'
 # issues:
 #   # exclude-use-default: false
 #   # exclude-rules:

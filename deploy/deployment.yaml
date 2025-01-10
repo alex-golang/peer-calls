@@ -23,7 +23,7 @@ spec:
           name: peercalls
       containers:
       - name: peercalls
-        image: ghcr.io/peer-calls/peer-calls
+        image: ghcr.io/alex-golang/peer-calls
         imagePullPolicy: IfNotPresent
         command: ["peer-calls", "-c", "/etc/peercalls/config.yaml"]
         ports:

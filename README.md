@@ -1,7 +1,7 @@
 # Peer Calls v4
 
-![Peer Calls CI](https://github.com/peer-calls/peer-calls/workflows/Peer%20Calls%20CI/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/peer-calls/peer-calls)](https://goreportcard.com/report/github.com/peer-calls/peer-calls)
+![Peer Calls CI](https://github.com/alex-golang/peer-calls/workflows/Peer%20Calls%20CI/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/alex-golang/peer-calls)](https://goreportcard.com/report/github.com/alex-golang/peer-calls)
 
 WebRTC peer to peer calls for everyone. See it live in action at
 [peercalls.com][peer-calls].
@@ -47,7 +47,7 @@ published on NPM since the server is no longer written in NodeJS.
 - [x] Add JitterBuffer (experimental, currently without congestion control)
 - [x] Support multiple Peer Calls nodes when using SFU
 - [x] Add support for passive ICE TCP candidates
-- [x] End-to-End Encryption (E2EE) using Insertable Streams. See [#142](https://github.com/peer-calls/peer-calls/pull/142).
+- [x] End-to-End Encryption (E2EE) using Insertable Streams. See [#142](https://github.com/alex-golang/peer-calls/pull/142).
 
 # Requirements for Development
 
@@ -84,7 +84,7 @@ See [package.json](package.json) for more information.
 
 ## Download Release
 
-Head to [Releases](https://github.com/peer-calls/peer-calls/releases) and
+Head to [Releases](https://github.com/alex-golang/peer-calls/releases) and
 download a precompiled version. Currently the binaries for the following
 systems are built automatically:
 
@@ -100,7 +100,7 @@ patch the manifests found within the `deploy/` directory. To deploy the manifest
 without applying any patches, pass the URL to `kubectl`:
 
 ```bash
-kubectl apply -k github.com/peer-calls/peer-calls
+kubectl apply -k github.com/alex-golang/peer-calls
 ```
 
 ## Using Docker
@@ -109,18 +109,18 @@ The automated builds on Docker Hub now require a subscription, and approval is
 required even for open source projects. We recently switched to using GitHub
 Container Registry instead:
 
-Use the [`ghcr.io/peer-calls/peer-calls`][ghcr] image:
+Use the [`ghcr.io/alex-golang/peer-calls`][ghcr] image:
 
 ```bash
-docker run --rm -it -p 3000:3000 ghcr.io/peer-calls/peer-calls:latest
+docker run --rm -it -p 3000:3000 ghcr.io/alex-golang/peer-calls:latest
 ```
 
-[ghcr]: https://ghcr.io/peer-calls/peer-calls
+[ghcr]: https://ghcr.io/alex-golang/peer-calls
 
 ## Building from Source
 
 ```bash
-git clone https://github.com/peer-calls/peer-calls.git
+git clone https://github.com/alex-golang/peer-calls.git
 cd peer-calls
 npm install
 
@@ -135,7 +135,7 @@ npm run start
 ## Building Docker Image
 
 ```bash
-git clone https://github.com/peer-calls/peer-calls
+git clone https://github.com/alex-golang/peer-calls
 cd peer-calls
 docker build -t peer-calls .
 docker run --rm -it -p 3000:3000 peer-calls

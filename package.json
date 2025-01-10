@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "private": true,
   "description": "Group peer to peer video calls for anybody.",
-  "repository": "https://github.com/peer-calls/peer-calls",
+  "repository": "https://github.com/alex-golang/peer-calls",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "bin": {
