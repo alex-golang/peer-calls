@@ -3,8 +3,8 @@ package play
 import (
 	"net"
 
-	"github.com/alex-golang/peercalls/v5/server/codecs"
-	"github.com/alex-golang/peercalls/v5/server/transport"
+	"github.com/alex-golang/peer-calls/v5/server/codecs"
+	"github.com/alex-golang/peer-calls/v5/server/transport"
 	"github.com/juju/errors"
 	"github.com/pion/interceptor"
 	"github.com/pion/rtp"

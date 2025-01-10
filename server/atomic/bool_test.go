@@ -3,7 +3,7 @@ package atomic_test
 import (
 	"testing"
 
-	"github.com/alex-golang/peercalls/v5/server/atomic"
+	"github.com/alex-golang/peer-calls/v5/server/atomic"
 	"github.com/stretchr/testify/assert"
 )
 

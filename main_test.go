@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alex-golang/peercalls/v5/server/test"
+	"github.com/alex-golang/peer-calls/v5/server/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
